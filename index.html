@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabukeera Leah Victoria – NALEVI</title>
+  <meta name="description"
+    content="Office Administrator · Business Coach · Fashion Coach & Stylist. Leveraging leadership and creativity for positive change across Uganda's evolving professional landscape." />
+  <meta name="author" content="Nabukeera Leah Victoria" />
+  <meta property="og:title" content="Nabukeera Leah Victoria – NALEVI" />
+  <meta property="og:description"
+    content="Office Administrator · Business Coach · Fashion Coach & Stylist based in Kampala, Uganda." />
+  <meta property="og:image" content="img/NALEVI (1).jpeg" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1.1">
+</head>
+
+<body>
+
+  <!-- ═══ CUSTOM CURSOR (desktop onlys) ═══ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══ MOBILE OVERLAY ═══ -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ═══ MOBILE DRAWER MENU ═══ -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="index.html" class="mobile-nav-link active">Home</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="skills.html" class="mobile-nav-link">Skills</a></li>
+      <li><a href="roles.html" class="mobile-nav-link">Roles</a></li>
+      <li><a href="testimonials.html" class="mobile-nav-link">Testimonials</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/256777520070?text=Hello%20NaleVI%20I%20am%20interested%20in%20your%20services"
+      class="mobile-cta mobile-nav-link">Hire Me</a>
+  </div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="navbar">
+    <a href="about.html" class="nav-logo">Nale<span>VI</span></a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="roles.html">Roles</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/256777520070?text=Hello%20NaleVI%20I%20am%20interested%20in%20your%20services"
+      class="nav-cta">Hire Me</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="hero-bg-blob hero-bg-blob-1"></div>
+    <div class="hero-bg-blob hero-bg-blob-2"></div>
+    <div class="hero-bg-pattern"></div>
+
+    <div class="hero-content-wrap">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Kampala, Uganda · Professional Excellence & Creative Vision
+        </div>
+        <h1 class="hero-name">NABUKEERA LEAH<em>VICTORIA</em></h1>
+        <p class="hero-subtitle">
+          Office Administrator · Business Coach · Fashion Coach &amp; Stylist.
+          Leveraging leadership and creativity for positive change across Uganda's
+          evolving professional landscape.
+        </p>
+        <div class="hero-actions">
+          <a href="LEAH CV.pdf" download="LEAH CV.pdf" class="btn btn-rose">Download CV</a>
+          <a href="#roles" class="btn btn-outline">Explore Roles</a>
+        </div>
+        <!-- Uganda flag stripe -->
+        <div class="hero-flag" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-photo-container">
+          <div class="hero-photo-bg"></div>
+          <img src="img/NALEVI (1).jpeg" alt="Nabukeera Leah Victoria — portrait" class="hero-photo-img" />
+          <div class="hero-photo-accent" aria-hidden="true"></div>
+          <!--<div class="hero-photo-stat">
+            <div class="hero-photo-stat-num">10+</div>  
+            <div class="hero-photo-stat-label">Years of<br>Excellence</div>
+          </div>-->
+          <div class="hero-photo-badge2">Kampala, UG <!--<img src="icons/" alt="Icon" class="inline-icon">--></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+        <rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" stroke-opacity="0.5" />
+        <circle cx="8" cy="8" r="2" fill="currentColor" />
+      </svg>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ═══ MARQUEE ═══ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">Office Administrator <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Business Coach <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Fashion Stylist <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Team Leader <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Life Coach <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Advocate <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Public Speaker <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Writer &amp; Blogger <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Mentor <span class="marquee-dot"></span></span>
+      <!-- Duplicated for seamless loop -->
+      <span class="marquee-item">Office Administrator <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Business Coach <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Fashion Stylist <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Team Leader <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Life Coach <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Advocate <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Public Speaker <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Writer &amp; Blogger <span class="marquee-dot"></span></span>
+      <span class="marquee-item">Mentor <span class="marquee-dot"></span></span>
+    </div>
+  </div>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid reveal">
+
+        <div class="about-photo-wrap">
+          <img src="img/NALEVI (1).jpeg" alt="Nabukeera Leah Victoria" class="about-photo-main" />
+          <div class="about-photo-frame"></div>
+          <div class="about-photo-label">Nabukeera Leah Victoria</div>
+        </div>
+
+        <div class="about-right">
+          <p class="section-eyebrow">About Me</p>
+          <h2 class="section-heading">Dynamic Leader,<br><em>Creative Force</em></h2>
+          <p class="about-body">
+            A dynamic Ugandan professional from Kampala, blending creativity, leadership,
+            and advocacy in a multifaceted career. As a writer, businesswoman, life and
+            business coach, administrator, fashion enthusiast, team leader, and advocate
+            for both women and men — she inspires empowerment and growth across diverse spheres.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-box">
+              <div class="stat-number">6</div>
+              <div class="stat-label">Core Roles</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">∞</div>
+              <div class="stat-label">Impact</div>
+            </div>
+          </div>
+
+          <ul class="about-checklist">
+            <li>Business Administration &amp; Organizational Management</li>
+            <li>Published Articles &amp; Advocacy Work</li>
+            <li>Nonprofit Governance &amp; Fundraising Strategy</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+
+      <div class="skills-header reveal">
+        <div>
+          <p class="section-eyebrow">Competencies</p>
+          <h2 class="section-heading">Skills &amp;<br><em>Expertise</em></h2>
+        </div>
+        <p class="skills-intro">
+          A diverse toolkit built over a decade of hands-on leadership,
+          client management, and creative endeavor.
+        </p>
+      </div>
+
+      <div class="skills-grid reveal">
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Project Management</span>
+            <span class="skill-pct">95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.95"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Customer Service</span>
+            <span class="skill-pct">92%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.92"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Opinion &amp; Adventure Writing</span>
+            <span class="skill-pct">88%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.88"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Leadership</span>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.90"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Life &amp; Business Coaching</span>
+            <span class="skill-pct">93%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.93"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Advocacy &amp; Fashion</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.85"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Team Building</span>
+            <span class="skill-pct">91%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.91"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-meta">
+            <span class="skill-name">Communication &amp; Adaptability</span>
+            <span class="skill-pct">94%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--target:0.94"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ ROLES ═══ -->
+  <section class="roles-section" id="roles">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">What I Do</p>
+        <h2 class="section-heading">Key <em>Roles</em></h2>
+      </div>
+
+      <div class="roles-grid reveal">
+
+        <div class="role-card">
+          <div class="role-icon-wrap">
+            <img src="icons/pen-tool.png" data-file="writer.svg" alt="Writer icon" />
+          </div>
+          <div class="role-number">01</div>
+          <h3 class="role-title">Writer &amp; Blogger</h3>
+          <p class="role-desc">Sharing insights on tourism, fashion, and life experiences through compelling, authentic
+            storytelling.</p>
+        </div>
+
+        <div class="role-card">
+          <div class="role-icon-wrap">
+            <img src="icons/silhouette.png" data-file="business.svg" alt="Business icon" />
+          </div>
+          <div class="role-number">02</div>
+          <h3 class="role-title">Businesswoman &amp; Administrator</h3>
+          <p class="role-desc">Driving operations with strategic acumen and operational excellence across diverse
+            industries.</p>
+        </div>
+
+        <div class="role-card">
+          <div class="role-icon-wrap">
+            <img src="icons/financial-advisor.png" data-file="coach.svg" alt="Coach icon" />
+          </div>
+          <div class="role-number">03</div>
+          <h3 class="role-title">Life &amp; Business Coach</h3>
+          <p class="role-desc">Guiding individuals toward personal and professional success through structured
+            mentorship.</p>
+        </div>
+
+        <div class="role-card">
+          <div class="role-icon-wrap">
+            <img src="icons/fashion.png" data-file="fashion.svg" alt="Fashion icon" />
+          </div>
+          <div class="role-number">04</div>
+          <h3 class="role-title">Fashion Enthusiast &amp; Stylist</h3>
+          <p class="role-desc">Celebrating style, cultural expression, and confidence through fashion coaching and
+            influence.</p>
+        </div>
+
+        <div class="role-card">
+          <div class="role-icon-wrap">
+            <img src="icons/teamwork.png" data-file="leadership.svg" alt="Leadership icon" />
+          </div>
+          <div class="role-number">05</div>
+          <h3 class="role-title">Team Leader &amp; Advocate</h3>
+          <p class="role-desc">Championing gender-inclusive opportunities and humanitarian causes with bold, decisive
+            leadership.</p>
+        </div>
+
+        <div class="role-card">
+          <div class="role-icon-wrap">
+            <img src="icons/speaker.png" data-file="public-speaking.svg" alt="Public Speaking icon" />
+          </div>
+          <div class="role-number">06</div>
+          <h3 class="role-title">Public &amp; Speaking</h3>
+          <p class="role-desc">excellent verbal communication skills, a talent for public speaking, and the ability to
+            travel extensively.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TESTIMONIALS ═══ -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Collaborations</p>
+        <h2 class="section-heading">What People<br><em>Say</em></h2>
+      </div>
+
+      <div class="testimonials-grid reveal">
+
+        <div class="testimonial-card">
+          <div class="project-img-warp">
+            <img src="img/Children reachouts.jpeg" alt="Children reachouts" />
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Leadership</span>
+              <span class="tag tag-2">Coaching</span>
+            </div>
+            <h3 class="project-title">Team Performance</h3>
+            <p class="project-text">
+              Her leadership and coaching dramatically improved our team's performance
+              and clarity of purpose. A rare talent.
+            </p>
+            <div class="project-footer">
+              <span class="project-tech">Janet Kamau • CompanyHQ</span>
+              <span class="project-year">2023</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="project-img-warp">
+            <img src="img/mtn pulse.jpeg" alt="MTN Pulse" />
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Strategy</span>
+              <span class="tag tag-2">HealthTech</span>
+            </div>
+            <h3 class="project-title">Transformational Action</h3>
+            <p class="project-text">
+              Working with Nabukeera Leah Victoria was transformational. Her ability
+              to translate strategy into action is truly unmatched.
+            </p>
+            <div class="project-footer">
+              <span class="project-tech">Samuel Byarugaba • Director</span>
+              <span class="project-year">2023</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="project-img-warp">
+            <img src="img/reminac studios.jpeg" alt="Reminac Studios" />
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Communication</span>
+              <span class="tag tag-2">Data</span>
+            </div>
+            <h3 class="project-title">Stakeholder Alignment</h3>
+            <p class="project-text">
+              Brilliant leader and communicator. She made our initiatives accessible
+              to every stakeholder in the room. Exceptional work.
+            </p>
+            <div class="project-footer">
+              <span class="project-tech">Priya Nair • FinServe Ltd</span>
+              <span class="project-year">2024</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-heading">Let's Work<br><em>Together</em></h2>
+      </div>
+
+      <div class="contact-inner reveal">
+
+        <div class="contact-left">
+          <p class="contact-body">
+            Ready to collaborate, hire, or simply connect? Reach out through any
+            channel below. Based in Kampala — open to opportunities across Uganda and beyond.
+          </p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <img src="icons/email-square-icon.png" alt="Email" />
+              </div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">
+                  <a href="mailto:leahtanh@gmail.com">leahtanh@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <img src="icons/call-square-icon.png" alt="Phone" />
+              </div>
+              <div>
+                <div class="contact-item-label">Phone</div>
+                <div class="contact-item-value">
+                  <a href="tel:+256777520070">+256 777 520 070</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <img src="icons/Location.png" alt="Location" />
+              </div>
+              <div>
+                <div class="contact-item-label">Location</div>
+                <div class="contact-item-value">Kampala, Uganda</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <img src="icons/web.png" alt="Social media" />
+              </div>
+              <div>
+                <div class="contact-item-label">Social</div>
+                <div class="contact-item-value contact-socials">
+                  <a href="https://ug.linkedin.com/in/leah-nabukeera" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                  <a href="https://www.facebook.com/p/Nabukeera-Leah" target="_blank"
+                    rel="noopener noreferrer">Facebook</a>
+                  <a href="https://www.instagram.com/nalevismalls" target="_blank"
+                    rel="noopener noreferrer">Instagram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.contact-left -->
+
+        <div class="contact-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="fname">First Name</label>
+                <input id="fname" type="text" class="form-input" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="lname">Last Name</label>
+                <input id="lname" type="text" class="form-input" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="femail">Email Address</label>
+              <input id="femail" type="email" class="form-input" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fsubject">Subject</label>
+              <input id="fsubject" type="text" class="form-input" placeholder="Collaboration / Hire / Media…"
+                required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fmessage">Message</label>
+              <textarea id="fmessage" class="form-textarea" placeholder="Tell me about your project or opportunity…"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-rose btn-full">Send Message →</button>
+            <p class="form-feedback" id="formFeedback" role="status" aria-live="polite">
+              ✓ Message sent! I'll be in touch soon.
+            </p>
+          </form>
+        </div><!-- /.contact-right -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <span class="footer-logo">Nale<span>VI</span></span>
+    <span class="footer-copy">© 2025 Nabukeera Leah Victoria · All rights reserved</span>
+    <div class="footer-socials">
+      <a href="https://ug.linkedin.com/in/leah-nabukeera" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.facebook.com/p/Nabukeera-Leah" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://www.instagram.com/nalevismalls" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Nabukeera Leah Victoria · NALEVI</title>
+  <meta name="description"
+    content="Learn more about Nabukeera Leah Victoria — visionary leader, business coach, fashion stylist, advocate, and writer based in Kampala, Uganda." />
+  <meta property="og:title" content="About NALEVI — Nabukeera Leah Victoria" />
+  <meta property="og:description"
+    content="Visionary leader, business coach, fashion stylist & advocate from Kampala, Uganda." />
+  <meta property="og:image" content="img/NALEVI (1).jpeg" />
+  <meta property="og:type" content="profile" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1.1">
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+  <!-- ═══ CURSOR ═══ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══ MOBILE OVERLAY ═══ -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ═══ MOBILE DRAWER ═══ -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="index.html" class="mobile-nav-link"></a></li>
+      <li><a href="about.html" class="mobile-nav-link active">About</a></li>
+      <li><a href="skills.html" class="mobile-nav-link">Skills</a></li>
+      <li><a href="roles.html" class="mobile-nav-link">Roles</a></li>
+      <li><a href="testimonials.html" class="mobile-nav-link">Testimonials</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/256777520070?text=Hello%20NaleVI%20I%20am%20interested%20in%20your%20services"
+      class="mobile-cta mobile-nav-link">Hire Me</a>
+  </div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">Nale<span>VI</span></a>
+    <ul class="nav-links">
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="roles.html">Roles</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/256777520070?text=Hello%20NaleVI%20I%20am%20interested%20in%20your%20services"
+      class="nav-cta">Hire Me</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       HERO — PAGE HEADER
+  ═══════════════════════════════════════════════════════════ -->
+  <header class="about-hero">
+    <div class="about-hero-bg-blob ab-blob-1"></div>
+    <div class="about-hero-bg-blob ab-blob-2"></div>
+    <div class="about-hero-pattern"></div>
+
+    <div class="about-hero-inner container">
+      <div class="about-hero-text">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">›</span>
+          <span>About</span>
+        </nav>
+        <p class="section-eyebrow">The Full Story</p>
+        <h1 class="about-hero-title">
+          Nabukeera<br><em>Leah Victoria</em>
+        </h1>
+        <p class="about-hero-lead">
+          Visionary leader. Passionate coach. Creative stylist. Relentless advocate.
+          A woman of many chapters, writing them all with purpose.
+        </p>
+        <div class="about-hero-chips">
+          <span class="chip"><img src="icons/Location.png" alt="Icon" class="inline-icon"> Kampala, Uganda</span>
+          <span class="chip">6 Core Disciplines</span>
+          <span class="chip">Open to Opportunities</span>
+        </div>
+      </div>
+
+      <div class="about-hero-photo-wrap">
+        <div class="about-hero-photo-ring"></div>
+        <img src="img/NALEVI (1).jpeg" alt="Nabukeera Leah Victoria — professional portrait" class="about-hero-photo" />
+        <!--<div class="about-hero-photo-card card-top">
+          <span class="phcard-icon"><img src="icons/businesswoman.png" alt="Icon" class="inline-icon"></span>
+          <div>
+            <div class="phcard-label">Years of Impact</div>
+          </div>
+        </div>-->
+        <div class="about-hero-photo-card card-bottom">
+          <span class="phcard-icon"><img src="icons/collaboration.png" alt="Icon" class="inline-icon"></span>
+          <div>
+            <div class="phcard-num">6</div>
+            <div class="phcard-label">Core Disciplines</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       IDENTITY STRIP — quick values
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="identity-strip">
+    <div class="container identity-grid">
+      <div class="identity-item">
+        <span class="identity-icon"><img src="icons/vision.png" alt="Icon" class="inline-icon"></span>
+        <span class="identity-label">Vision</span>
+        <span class="identity-val">Empowering communities through knowledge and action</span>
+      </div>
+      <div class="identity-item">
+        <span class="identity-icon"><img src="icons/Passion.png" alt="Icon" class="inline-icon"></span>
+        <span class="identity-label">Passion</span>
+        <span class="identity-val">People development, fashion culture, social advocacy</span>
+      </div>
+      <div class="identity-item">
+        <span class="identity-icon"><img src="icons/Mission.png" alt="Icon" class="inline-icon"></span>
+        <span class="identity-label">Mission</span>
+        <span class="identity-val">Bridging professional excellence with creative influence</span>
+      </div>
+      <div class="identity-item">
+        <span class="identity-icon"><img src="icons/values.png" alt="Icon" class="inline-icon"></span>
+        <span class="identity-label">Values</span>
+        <span class="identity-val">Integrity · Courage · Inclusivity · Excellence</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       WHO SHE IS — narrative bio
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="bio-section">
+    <div class="container bio-grid">
+
+      <div class="bio-sidebar reveal">
+        <div class="bio-portrait-wrap">
+          <img src="img/NALEVI (1).jpeg" alt="Nabukeera Leah Victoria in action" class="bio-portrait" />
+          <div class="bio-portrait-overlay">
+            <span>NALEVI</span>
+          </div>
+        </div>
+
+        <div class="bio-quick-facts">
+          <h3 class="bqf-title">Quick Facts</h3>
+          <ul class="bqf-list">
+            <li>
+              <span class="bqf-key">Full Name</span>
+              <span class="bqf-val">Nabukeera Leah Victoria</span>
+            </li>
+            <li>
+              <span class="bqf-key">Alias</span>
+              <span class="bqf-val">NALEVI</span>
+            </li>
+            <li>
+              <span class="bqf-key">Based In</span>
+              <span class="bqf-val">Namasuba Central Zone, Wakiso</span>
+            </li>
+            <li>
+              <span class="bqf-key">Industry</span>
+              <span class="bqf-val">Coaching · Admin · Fashion · Advocacy</span>
+            </li>
+            <li>
+              <span class="bqf-key">Languages</span>
+              <span class="bqf-val">English · Luganda · French</span>
+            </li>
+            <li>
+              <span class="bqf-key">Availability</span>
+              <span class="bqf-val avail">
+                <span class="avail-dot"></span> Open to Opportunities
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <a href="index.html#contact" class="btn btn-rose btn-full">Work With Me</a>
+        <a href="LEAH CV.pdf" download="LEAH CV.pdf" class="btn btn-outline btn-full" style="margin-top: 1rem;">
+          Download CV
+        </a>
+      </div>
+
+      <div class="bio-content reveal">
+        <p class="section-eyebrow">Who She Is</p>
+        <h2 class="section-heading">A Story of <em>Purpose</em></h2>
+
+        <div class="bio-body">
+          <p>
+            Nabukeera Leah Victoria — widely known as <strong>NALEVI</strong> — is a
+            dynamic, multi-disciplinary Ugandan professional whose career is defined by
+            an unwavering commitment to empowerment, creativity, and purposeful leadership.
+            Born and raised in the vibrant city of Kampala, she grew up surrounded by
+            stories of resilience, community spirit, and the rich cultural tapestry of
+            East Africa — values that continue to anchor everything she does.
+          </p>
+          <p>
+            Over a decade ago, Leah stepped into the professional arena armed with a
+            passion for people and an instinct for organisation. What began as a career
+            in office administration quickly evolved into a multifaceted professional
+            identity. She discovered that her greatest strength lay not in performing a
+            single role, but in weaving together disciplines that most people keep
+            separate — business, coaching, fashion, writing, advocacy, and governance.
+          </p>
+          <p>
+            As a <strong>Business Coach and Life Coach</strong>, she has guided
+            entrepreneurs, executives, and young professionals through pivotal transitions,
+            helping them crystallise their goals and move with decisive clarity. Her
+            coaching philosophy is grounded in empathy — she meets people exactly where
+            they are, then helps them discover the version of themselves they are reaching for.
+          </p>
+          <p>
+            Her love for <strong>fashion and style</strong> is not superficial; it is
+            deeply tied to identity, culture, and confidence. As a stylist and fashion
+            advocate, Leah champions the idea that how we present ourselves communicates
+            our story before we speak a word. She uses fashion as a tool for empowerment,
+            particularly for women navigating professional spaces.
+          </p>
+          <p>
+            As a <strong>writer and blogger</strong>, she documents her observations on
+            tourism, lifestyle, and social issues with a voice that is both intelligent
+            and accessible. Her advocacy work — particularly for gender inclusion and
+            humanitarian causes — rounds out a career that refuses to be confined to a
+            single title or industry.
+          </p>
+          <p>
+            NALEVI is, at her core, a <strong>builder of people</strong>. Whether in a
+            boardroom, a coaching session, a fashion event, or a community forum, she
+            brings the same energy: intentional, warm, and transformative.
+          </p>
+        </div>
+
+        <div class="bio-signature">
+          <div class="bio-sig-line"></div>
+          <span class="bio-sig-text">Nabukeera Leah Victoria</span>
+          <span class="bio-sig-sub">NALEVI · Kampala, Uganda</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       JOURNEY TIMELINE
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="timeline-section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-eyebrow">Career Journey</p>
+        <h2 class="section-heading">Milestones That <em>Shaped Her</em></h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2009</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Kings College Buddo</h3>
+            <p class="tl-body">Began secondary education at one of Uganda’s leading schools, laying the academic
+              foundations for future success.</p>
+            <div class="tl-tag tl-tag-edu">Education</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2015–2018</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Uganda Martyrs University</h3>
+            <p class="tl-body">Completed tertiary studies, earning a degree that would underpin her multi‑disciplinary
+              career.</p>
+            <div class="tl-tag tl-tag-edu">Education</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2013</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Career Beginnings in Administration</h3>
+            <p class="tl-body">Stepped into professional life as an Office Administrator, mastering operational
+              management, client relations, and organisational efficiency across multiple sectors.</p>
+            <div class="tl-tag">Office Administration</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2015</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Launched Coaching Practice</h3>
+            <p class="tl-body">Recognised a deep calling to help others grow. Began coaching individuals on personal
+              development and professional clarity, combining emotional intelligence with strategic thinking.</p>
+            <div class="tl-tag">Life & Business Coaching</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2017</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Fashion Advocacy & Styling</h3>
+            <p class="tl-body">Formalised her passion for fashion into a professional offering — providing personal
+              styling, image consulting, and championing African fashion narratives on both local and digital platforms.
+            </p>
+            <div class="tl-tag">Fashion & Styling</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2017</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Internship at Britannia Allied Industries</h3>
+            <p class="tl-body">Gained hands‑on corporate experience during an internship, contributing to operations and
+              learning industry best practices.</p>
+            <div class="tl-tag tl-tag-work">Work Experience</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2019–2022</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Doctors' Hospital Sseguku</h3>
+            <p class="tl-body">Served in a key position, deepening expertise in healthcare administration and patient
+              services while balancing other professional pursuits.</p>
+            <div class="tl-tag tl-tag-work">Work Experience</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2019</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Writing, Blogging & Public Voice</h3>
+            <p class="tl-body">Emerged as a published writer and blogger, contributing articles on tourism, lifestyle,
+              gender advocacy, and professional development to Ugandan and pan-African audiences.</p>
+            <div class="tl-tag">Writing & Blogging</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2021</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Nonprofit Governance & Advocacy Leadership</h3>
+            <p class="tl-body">Expanded her work into the nonprofit space — leading fundraising strategies,
+              gender-inclusion initiatives, and community governance programmes that created measurable social impact.
+            </p>
+            <div class="tl-tag">Nonprofit & Governance</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2021</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Awarded Best Cashier / Insurance Personnel</h3>
+            <p class="tl-body">Recognised for outstanding performance as Best Cashier / Insurance Personnel in 2021,
+              demonstrating excellence and dedication in financial services.</p>
+            <div class="tl-tag tl-tag-work">Award</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">2023–present</div>
+          <div class="tl-card">
+            <h3 class="tl-title">Muteesa I Royal University</h3>
+            <p class="tl-body">Currently contributing to academia and administration, furthering her impact within
+              higher education while maintaining her professional portfolio.</p>
+            <div class="tl-tag tl-tag-work">Work Experience</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-right reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-year">Now</div>
+          <div class="tl-card tl-card-now">
+            <h3 class="tl-title">NALEVI — Full-Spectrum Professional</h3>
+            <p class="tl-body">Today, Leah operates as a fully integrated professional — coaching, styling, writing,
+              advocating, and leading — with a growing reputation across Uganda and East Africa.</p>
+            <div class="tl-tag tl-tag-rose">Open to Opportunities</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       CORE VALUES
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="values-section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-eyebrow">What Drives Her</p>
+        <h2 class="section-heading">Core <em>Values</em></h2>
+      </div>
+
+      <div class="values-grid reveal">
+
+        <div class="value-card">
+          <div class="value-icon"><img src="icons/trust.png" alt="Icon" class="inline-icon"></div>
+          <h3 class="value-title">Integrity</h3>
+          <p class="value-desc">Every interaction, every piece of advice, every role she steps into is grounded in
+            honesty and transparency. She builds trust by showing up consistently as the same person in every room.</p>
+        </div>
+
+        <div class="value-card value-card-featured">
+          <div class="value-icon"><img src="icons/courage.png" alt="Icon" class="inline-icon"></div>
+          <h3 class="value-title">Courage</h3>
+          <p class="value-desc">From stepping into advocacy on behalf of the marginalised to challenging conventional
+            career paths, Leah exemplifies the courage to lead, speak, and act even in the face of uncertainty.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><img src="icons/union.png" alt="Icon" class="inline-icon"></div>
+          <h3 class="value-title">Inclusivity</h3>
+          <p class="value-desc">She firmly believes talent has no gender, tribe, or background. All her work — from
+            coaching to governance — is oriented around creating spaces where everyone has an equal voice.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><img src="icons/personal-branding.png" alt="Icon" class="inline-icon"></div>
+          <h3 class="value-title">Excellence</h3>
+          <p class="value-desc">Mediocrity is not an option. Whether styling a client, running a boardroom session, or
+            crafting a blog post, she holds herself and those around her to the highest standard of quality.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><img src="icons/plant.png" alt="Icon" class="inline-icon"></div>
+          <h3 class="value-title">Growth</h3>
+          <p class="value-desc">Learning is a lifetime commitment. She invests continuously in herself — through
+            education, experience, mentorship, and travel — and she expects the same dedication from those she works
+            with.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon"><img src="icons/community.png" alt="Icon" class="inline-icon"></div>
+          <h3 class="value-title">Community</h3>
+          <p class="value-desc">No success is meaningful in isolation. Leah's vision of success is one that lifts those
+            around her — her clients, her community, and the next generation of East African leaders.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       EXPERTISE DEEP DIVE — the six roles expanded
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="expertise-section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-eyebrow">Areas of Practice</p>
+        <h2 class="section-heading">What She <em>Does Best</em></h2>
+      </div>
+
+      <div class="expertise-list">
+
+        <div class="expertise-item reveal">
+          <div class="exp-number">01</div>
+          <div class="exp-icon-wrap">
+            <img src="icons/writing-tool.png" alt="Writing"
+              onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/pen-tool.png\' alt=\'Icon\' class=\'inline-icon\'>',style:'font-size:1.4rem'}))" />
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-title">Writer &amp; Blogger</h3>
+            <p class="exp-body">Leah writes with purpose — her articles explore East African tourism, fashion culture,
+              professional development, and gender advocacy. Published across Ugandan and pan-African platforms, her
+              writing translates complex realities into stories that resonate and provoke thoughtful dialogue.</p>
+            <div class="exp-tags">
+              <span>Opinion Writing</span>
+              <span>Travel &amp; Tourism</span>
+              <span>Lifestyle Blogging</span>
+              <span>Advocacy Journalism</span>
+            </div>
+          </div>
+          <div class="exp-visual">
+            <div class="exp-stat-block">
+              <div class="exp-stat-num">50+</div>
+              <div class="exp-stat-label">Articles Published</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-item exp-alt reveal">
+          <div class="exp-number">02</div>
+          <div class="exp-icon-wrap">
+            <img src="icons/businesswoman.png" alt="Business"
+              onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🏢',style:'font-size:1.4rem'}))" />
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-title">Businesswoman &amp; Administrator</h3>
+            <p class="exp-body">With over a decade of hands-on experience managing offices, operations, and
+              cross-functional teams, Leah brings strategic acumen and precision to every organisation she works with.
+              She understands how businesses breathe — and how to make them thrive.</p>
+            <div class="exp-tags">
+              <span>Operations Management</span>
+              <span>Strategic Planning</span>
+              <span>Client Relations</span>
+              <span>Process Optimisation</span>
+            </div>
+          </div>
+          <div class="exp-visual">
+            <div class="exp-stat-block">
+              <div class="exp-stat-num">40%</div>
+              <div class="exp-stat-label">Efficiency increase at Doctors' Hospital</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-item reveal">
+          <div class="exp-number">03</div>
+          <div class="exp-icon-wrap">
+            <img src="icons/coach.png" alt="Coaching"
+              onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/financial-advisor.png\' alt=\'Icon\' class=\'inline-icon\'>',style:'font-size:1.4rem'}))" />
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-title">Life &amp; Business Coach</h3>
+            <p class="exp-body">Her coaching style is direct, empathetic, and deeply personalised. Leah works with
+              entrepreneurs, rising executives, and individuals at crossroads — helping them move from confusion to
+              clarity and from hesitation to decisive action. Her sessions are transformative because she truly sees her
+              clients.</p>
+            <div class="exp-tags">
+              <span>Executive Coaching</span>
+              <span>Career Transitions</span>
+              <span>Mindset Coaching</span>
+              <span>Business Strategy</span>
+            </div>
+          </div>
+          <div class="exp-visual">
+            <div class="exp-stat-block">
+              <div class="exp-stat-num">200+</div>
+              <div class="exp-stat-label">Lives Transformed</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-item exp-alt reveal">
+          <div class="exp-number">04</div>
+          <div class="exp-icon-wrap">
+            <img src="icons/fashion.png" alt="Fashion"
+              onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/fashion.png\' alt=\'Icon\' class=\'inline-icon\'>',style:'font-size:1.4rem'}))" />
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-title">Fashion Enthusiast &amp; Stylist</h3>
+            <p class="exp-body">For Leah, fashion is a language. She helps clients discover and articulate their
+              personal style — particularly professional women navigating image in corporate or public environments.
+              Rooted in African fashion culture, her styling philosophy is celebratory, confident, and unapologetically
+              bold.</p>
+            <div class="exp-tags">
+              <span>Personal Styling</span>
+              <span>Image Consulting</span>
+              <span>African Fashion</span>
+              <span>Brand Identity</span>
+            </div>
+          </div>
+          <div class="exp-visual">
+            <div class="exp-stat-block">
+              <div class="exp-stat-num">100+</div>
+              <div class="exp-stat-label">Clients Styled</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-item reveal">
+          <div class="exp-number">05</div>
+          <div class="exp-icon-wrap">
+            <img src="icons/team.png" alt="Team"
+              onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/teamwork.png\' alt=\'Icon\' class=\'inline-icon\'>',style:'font-size:1.4rem'}))" />
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-title">Team Leader &amp; Advocate</h3>
+            <p class="exp-body">Leah leads with presence and purpose. She has built, managed, and inspired teams across
+              industries — always creating environments where people feel seen, valued, and motivated to excel. Her
+              advocacy for gender-inclusive workplaces makes her a champion both inside and outside organisations.</p>
+            <div class="exp-tags">
+              <span>Team Development</span>
+              <span>Gender Advocacy</span>
+              <span>Conflict Resolution</span>
+              <span>Humanitarian Leadership</span>
+            </div>
+          </div>
+          <div class="exp-visual">
+            <div class="exp-stat-block">
+              <div class="exp-stat-num">15+</div>
+              <div class="exp-stat-label">Teams Led</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-item exp-alt reveal">
+          <div class="exp-number">06</div>
+          <div class="exp-icon-wrap">
+            <img src="icons/nonprofit.png" alt="Nonprofit"
+              onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/collaboration.png\' alt=\'Icon\' class=\'inline-icon\'>',style:'font-size:1.4rem'}))" />
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-title">Nonprofit &amp; Governance</h3>
+            <p class="exp-body">Her work in the nonprofit sector blends administrative excellence with genuine social
+              conscience. Leah contributes to community-driven organisations through strategic planning, fundraising
+              frameworks, board governance, and programme development — always with a commitment to lasting, measurable
+              impact.</p>
+            <div class="exp-tags">
+              <span>Board Governance</span>
+              <span>Fundraising Strategy</span>
+              <span>Programme Development</span>
+              <span>Community Impact</span>
+            </div>
+          </div>
+          <div class="exp-visual">
+            <div class="exp-stat-block">
+              <div class="exp-stat-num">5+</div>
+              <div class="exp-stat-label">NGOs Supported</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       AWARDS & RECOGNITION  (placeholder — update as needed)
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="awards-section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-eyebrow">Recognition</p>
+        <h2 class="section-heading">Awards &amp; <em>Highlights</em></h2>
+      </div>
+      <div class="awards-grid reveal">
+
+        <div class="award-card">
+          <div class="award-icon"><img src="icons/high-performance.png" alt="Icon" class="inline-icon"></div>
+          <div class="award-body">
+            <div class="award-year">2022</div>
+            <h3 class="award-title">Outstanding Women in Leadership</h3>
+            <p class="award-org">East Africa Women's Forum, Kampala</p>
+          </div>
+        </div>
+
+        <div class="award-card">
+          <div class="award-icon"><img src="icons/blogger.png" alt="Icon" class="inline-icon"></div>
+          <div class="award-body">
+            <div class="award-year">2020</div>
+            <h3 class="award-title">Featured Contributor</h3>
+            <p class="award-org">Pan-African Lifestyle & Opinion Platform</p>
+          </div>
+        </div>
+
+        <div class="award-card">
+          <div class="award-icon"><img src="icons/conference.png" alt="Icon" class="inline-icon"></div>
+          <div class="award-body">
+            <div class="award-year">2021</div>
+            <h3 class="award-title">Guest Speaker — Gender & Work</h3>
+            <p class="award-org">Kampala Entrepreneurship Summit</p>
+          </div>
+        </div>
+
+        <div class="award-card">
+          <div class="award-icon"><img src="icons/charisma.png" alt="Icon" class="inline-icon"></div>
+          <div class="award-body">
+            <div class="award-year">2023</div>
+            <h3 class="award-title">Top 40 Influential Ugandan Women</h3>
+            <p class="award-org">Business &amp; Professional Excellence Uganda</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       PERSONAL — the woman beyond the title
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="personal-section">
+    <div class="container personal-grid">
+
+      <div class="personal-content reveal">
+        <p class="section-eyebrow">Beyond the Title</p>
+        <h2 class="section-heading">The Woman <em>Behind NALEVI</em></h2>
+        <p class="personal-body">
+          Beyond the professional achievements, Leah is a storyteller at heart — someone
+          who finds meaning in conversations, landscapes, and the everyday moments that
+          most people rush past. She is an avid traveller, drawing inspiration from the
+          diverse cultures of Africa and beyond, and weaving those insights into her work.
+        </p>
+        <p class="personal-body">
+          She believes deeply in the power of community — that the most meaningful
+          transformations don't happen in boardrooms, but at kitchen tables, in
+          mentorship circles, and at community gatherings where real stories are shared.
+        </p>
+        <p class="personal-body">
+          When she's not coaching, styling, or writing, you'll find her exploring
+          Kampala's vibrant cultural scene, mentoring young women navigating their first
+          professional steps, or simply being present for the people she loves.
+        </p>
+
+        <div class="personal-interests">
+          <span class="interest-chip"><img src="icons/Travel.png" alt="Icon" class="inline-icon"> Travel</span>
+          <span class="interest-chip"><img src="icons/student.png" alt="Icon" class="inline-icon"> Reading</span>
+          <span class="interest-chip"><img src="icons/wardrobe.png" alt="Icon" class="inline-icon"> Fashion</span>
+          <span class="interest-chip"><img src="icons/apple.png" alt="Icon" class="inline-icon"> Culture &
+            Cuisine</span>
+          <span class="interest-chip"><img src="icons/announcer.png" alt="Icon" class="inline-icon"> Public
+            Speaking</span>
+          <span class="interest-chip"><img src="icons/collaboration.png" alt="Icon" class="inline-icon"> Community
+            Work</span>
+        </div>
+      </div>
+
+      <div class="personal-photo-mosaic reveal">
+        <div class="mosaic-main">
+          <img src="img/NALEVI (1).jpeg" alt="Nabukeera Leah Victoria" />
+          <div class="mosaic-caption">In her element</div>
+        </div>
+        <div class="mosaic-side">
+          <div class="mosaic-quote">
+            <span class="mq-mark">"</span>
+            <p>Success means nothing if it doesn't make the world around you better.</p>
+            <cite>— NALEVI</cite>
+          </div>
+          <div class="mosaic-stat-card">
+            <div class="msc-label">Years shaping careers,<br>communities &amp; confidence</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       CTA — work with her
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="about-cta-section">
+    <div class="container about-cta-inner reveal">
+      <div class="about-cta-blob"></div>
+      <div class="about-cta-content">
+        <p class="section-eyebrow" style="color:var(--rose-light);">Ready to Connect?</p>
+        <h2 class="about-cta-title">Let's Build Something <em>Meaningful</em></h2>
+        <p class="about-cta-body">
+          Whether you're looking for a coach, a stylist, a speaker, or a strategic
+          partner — Leah brings passion, precision, and purpose to every engagement.
+          Reach out and let's start the conversation.
+        </p>
+        <div class="about-cta-actions">
+          <a href="index.html#contact" class="btn btn-rose">Get In Touch</a>
+          <a href="index.html#roles" class="btn btn-cta-outline">View All Roles</a>
+        </div>
+        <div class="about-cta-socials">
+          <a href="https://ug.linkedin.com/in/leah-nabukeera" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.facebook.com/p/Nabukeera-Leah" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.instagram.com/nalevismalls" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <span class="footer-logo">Nale<span>VI</span></span>
+    <span class="footer-copy">© 2025 Nabukeera Leah Victoria · All rights reserved</span>
+    <div class="footer-socials">
+      <a href="https://ug.linkedin.com/in/leah-nabukeera" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.facebook.com/p/Nabukeera-Leah" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://www.instagram.com/nalevismalls" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

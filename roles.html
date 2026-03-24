@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roles &amp; Services — Nabukeera Leah Victoria · NALEVI</title>
+  <meta name="description"
+    content="Explore the six professional roles of Nabukeera Leah Victoria — Writer, Administrator, Life Coach, Fashion Stylist, Team Leader, and Nonprofit Governance expert based in Kampala, Uganda." />
+  <meta property="og:title" content="Roles & Services — NALEVI" />
+  <meta property="og:description"
+    content="Six disciplines. One extraordinary professional. Discover how NALEVI can serve your organisation, community, or personal journey." />
+  <meta property="og:image" content="img/NALEVI (1).jpeg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1.1">
+</head>
+
+<body>
+
+  <!-- ═══ CURSOR ═══ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══ MOBILE OVERLAY ═══ -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ═══ MOBILE DRAWER ═══ -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="skills.html" class="mobile-nav-link">Skills</a></li>
+      <li><a href="roles.html" class="mobile-nav-link active">Roles</a></li>
+      <li><a href="index.html#testimonials" class="mobile-nav-link">Testimonials</a></li>
+      <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="mobile-cta mobile-nav-link">Hire Me</a>
+  </div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">Nale<span>VI</span></a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="roles.html" class="active">Roles</a></li>
+      <li><a href="index.html#testimonials">Testimonials</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta">Hire Me</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       HERO — PAGE HEADER
+  ═══════════════════════════════════════════════════════════ -->
+  <header class="roles-hero">
+    <div class="roles-hero-blob rh-blob-1"></div>
+    <div class="roles-hero-blob rh-blob-2"></div>
+    <div class="roles-hero-pattern"></div>
+
+    <div class="roles-hero-inner container">
+
+      <div class="roles-hero-text">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">›</span>
+          <span>Roles &amp; Services</span>
+        </nav>
+        <p class="section-eyebrow">What She Does</p>
+        <h1 class="roles-hero-title">
+          Six Roles.<br><em>One Vision.</em>
+        </h1>
+        <p class="roles-hero-lead">
+          Nabukeera Leah Victoria doesn't fit into a single box — and she never will.
+          Each of her six professional roles is a fully realised discipline, practised
+          with depth, intention, and a commitment to lasting impact.
+        </p>
+        <div class="roles-hero-chips">
+          <span class="chip">Writer &amp; Blogger</span>
+          <span class="chip">Business Administrator</span>
+          <span class="chip">Life &amp; Business Coach</span>
+          <span class="chip">Fashion Stylist</span>
+          <span class="chip">Team Leader</span>
+          <span class="chip">Nonprofit &amp; Governance</span>
+        </div>
+      </div>
+
+      <!-- Role selector quick nav -->
+      <div class="roles-hero-nav">
+        <p class="rhn-label">Jump to a Role</p>
+        <div class="rhn-list">
+          <a href="#role-writer" class="rhn-item">
+            <span class="rhn-num">01</span>
+            <span class="rhn-icon">
+              <img src="icons/writing-tool.png" alt="" aria-hidden="true"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/pen-tool.png\' alt=\'Icon\' class=\'inline-icon\'>'}))" />
+            </span>
+            <span class="rhn-name">Writer &amp; Blogger</span>
+            <span class="rhn-arrow">→</span>
+          </a>
+          <a href="#role-admin" class="rhn-item">
+            <span class="rhn-num">02</span>
+            <span class="rhn-icon">
+              <img src="icons/businesswoman.png" alt="" aria-hidden="true"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:''}))" />
+            </span>
+            <span class="rhn-name">Businesswoman &amp; Administrator</span>
+            <span class="rhn-arrow">→</span>
+          </a>
+          <a href="#role-coach" class="rhn-item">
+            <span class="rhn-num">03</span>
+            <span class="rhn-icon">
+              <img src="icons/coach.png" alt="" aria-hidden="true"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/financial-advisor.png\' alt=\'Icon\' class=\'inline-icon\'>'}))" />
+            </span>
+            <span class="rhn-name">Life &amp; Business Coach</span>
+            <span class="rhn-arrow">→</span>
+          </a>
+          <a href="#role-fashion" class="rhn-item">
+            <span class="rhn-num">04</span>
+            <span class="rhn-icon">
+              <img src="icons/fashion.png" alt="" aria-hidden="true"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/fashion.png\' alt=\'Icon\' class=\'inline-icon\'>'}))" />
+            </span>
+            <span class="rhn-name">Fashion Enthusiast &amp; Stylist</span>
+            <span class="rhn-arrow">→</span>
+          </a>
+          <a href="#role-leader" class="rhn-item">
+            <span class="rhn-num">05</span>
+            <span class="rhn-icon">
+              <img src="icons/team.png" alt="" aria-hidden="true"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/teamwork.png\' alt=\'Icon\' class=\'inline-icon\'>'}))" />
+            </span>
+            <span class="rhn-name">Team Leader &amp; Advocate</span>
+            <span class="rhn-arrow">→</span>
+          </a>
+          <a href="#role-nonprofit" class="rhn-item">
+            <span class="rhn-num">06</span>
+            <span class="rhn-icon">
+              <img src="icons/nonprofit.png" alt="" aria-hidden="true"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/collaboration.png\' alt=\'Icon\' class=\'inline-icon\'>'}))" />
+            </span>
+            <span class="rhn-name">Nonprofit &amp; Governance</span>
+            <span class="rhn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       OVERVIEW STRIP
+  ═══════════════════════════════════════════════════════════ -->
+  <div class="roles-overview-strip">
+    <div class="container roles-overview-grid">
+      <div class="rov-item">
+        <div class="rov-num">06</div>
+        <div class="rov-label">Core Disciplines</div>
+      </div>
+      <div class="rov-item">
+        <div class="rov-num">200+</div>
+        <div class="rov-label">Clients &amp; Collaborators</div>
+      </div>
+      <div class="rov-item">
+        <div class="rov-num">∞</div>
+        <div class="rov-label">Community Impact</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLE 01 — WRITER & BLOGGER
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="role-detail-section" id="role-writer">
+    <div class="container">
+
+      <div class="role-detail-inner reveal">
+
+        <!-- Role header band -->
+        <div class="rd-header">
+          <div class="rd-header-left">
+            <span class="rd-number">01</span>
+            <div class="rd-icon-wrap">
+              <img src="icons/writing-tool.png" alt="Writing icon"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/pen-tool.png\' alt=\'Icon\' class=\'inline-icon\'>',className:'rd-emoji'}))" />
+            </div>
+            <div>
+              <p class="rd-eyebrow">Role One</p>
+              <h2 class="rd-title">Writer &amp; Blogger</h2>
+            </div>
+          </div>
+          <a href="index.html#contact" class="btn btn-rose rd-cta">Collaborate →</a>
+        </div>
+
+        <div class="rd-body-grid">
+
+          <!-- Left: narrative -->
+          <div class="rd-narrative">
+            <p class="rd-lead">
+              Words are Leah's first instrument. Long before titles accumulated and
+              disciplines multiplied, she was writing — observing the world around
+              her and finding language for what she saw.
+            </p>
+            <p class="rd-body">
+              As a writer and blogger, she covers the terrain where life gets interesting:
+              East African tourism and travel, fashion and personal style, gender and social
+              issues, and the everyday complexity of professional life in Uganda. Her writing
+              is characterised by an honest, exploratory voice — never preachy, always
+              inviting the reader to think alongside her.
+            </p>
+            <p class="rd-body">
+              She has contributed to Ugandan and pan-African digital publications, maintained
+              her own blog, and produced long-form and short-form content for brands, nonprofits,
+              and advocacy campaigns. She understands that great writing doesn't just inform —
+              it changes the way people see things.
+            </p>
+
+            <!-- What she offers -->
+            <div class="rd-offers">
+              <h3 class="rd-offers-title">What She Offers</h3>
+              <div class="rd-offers-grid">
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/pen-tool.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Blog &amp; Article Writing</strong>
+                    <p>Long-form and short-form pieces for digital platforms, print publications, and organisational
+                      blogs.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/Travel.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Travel &amp; Tourism Content</strong>
+                    <p>Destination features, tourism promotion, and adventure narratives rooted in East African
+                      experience.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/announcer.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Advocacy &amp; Opinion Writing</strong>
+                    <p>Thought leadership pieces on gender, social issues, and community development with a compelling,
+                      credible voice.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/personal-branding.png" alt="Icon"
+                      class="inline-icon"></span>
+                  <div>
+                    <strong>Brand &amp; Campaign Copywriting</strong>
+                    <p>Strategic copy for organisations, campaigns, and social impact initiatives that need to connect
+                      with real audiences.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: sidebar details -->
+          <div class="rd-sidebar">
+            <div class="rd-stat-card">
+              <div class="rds-num">50+</div>
+              <div class="rds-label">Articles &amp; Features Published</div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Writing Genres</h4>
+              <div class="rdb-tags">
+                <span>Opinion</span><span>Travel</span><span>Lifestyle</span>
+                <span>Fashion</span><span>Advocacy</span><span>Profiles</span>
+                <span>Copywriting</span><span>Newsletters</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Platforms &amp; Formats</h4>
+              <div class="rdb-tags">
+                <span>WordPress</span><span>LinkedIn Articles</span>
+                <span>Instagram</span><span>Facebook</span>
+                <span>Editorial Features</span><span>Email Campaigns</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Ideal Clients</h4>
+              <ul class="rdb-list">
+                <li>Tourism boards &amp; travel brands</li>
+                <li>NGOs &amp; advocacy organisations</li>
+                <li>Fashion &amp; lifestyle brands</li>
+                <li>Corporates needing thought leadership</li>
+                <li>Media outlets &amp; digital publications</li>
+              </ul>
+            </div>
+
+            <a href="index.html#contact" class="rd-enquire-link">
+              Enquire about writing services →
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+       FEATURED ARTICLES — Modern Sliders
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="articles-section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-eyebrow">Insights & Adventures</p>
+        <h2 class="section-heading">Featured <em>Articles</em></h2>
+        <p class="roles-section-intro">
+          Explore Leah's writing on travel, fashion, strategy, and sustainable impact.
+        </p>
+      </div>
+
+      <div class="articles-slider-container reveal">
+        <div class="img-warp-slider">
+
+          <a href="https://theugpost.com/three-days-in-paradise-my-unplanned-adventure-to-bugoma-sand-beach/"
+            class="img-warp-card" target="_blank">
+            <img src="img/bugoma_beach.png" alt="Bugoma Sand Beach">
+            <div class="mosaic-caption">
+              <span class="mosaic-tag">Travel</span>
+              <h3 class="mosaic-title">Three Days in Paradise: Bugoma Sand Beach</h3>
+              <span class="mosaic-date">March 2024</span>
+            </div>
+          </a>
+
+          <a href="https://www.kampalaedgetimes.com/kalangala-island-my-trip-to-the-love-island-leah-nabukeera/"
+            class="img-warp-card" target="_blank">
+            <img src="img/kalangala_island.jpg" alt="Kalangala Island">
+            <div class="mosaic-caption">
+              <span class="mosaic-tag">Adventure</span>
+              <h3 class="mosaic-title">Kalangala: My Trip to the Love Island</h3>
+              <span class="mosaic-date">February 2024</span>
+            </div>
+          </a>
+
+          <a href="https://www.kampalaedgetimes.com/is-glamour-a-little-bigger-than-fashion-leah-nabukeera/"
+            class="img-warp-card" target="_blank">
+            <img src="img/glamour_style.png" alt="Glamour vs Fashion">
+            <div class="mosaic-caption">
+              <span class="mosaic-tag">Fashion</span>
+              <h3 class="mosaic-title">Is Glamour Bigger Than Fashion?</h3>
+              <span class="mosaic-date">January 2024</span>
+            </div>
+          </a>
+
+          <a href="https://www.kampalaedgetimes.com/history-of-fashion-how-what-we-wear-became-such-a-big-deal/"
+            class="img-warp-card" target="_blank">
+            <img src="img/fashion_history.png" alt="History of Fashion">
+            <div class="mosaic-caption">
+              <span class="mosaic-tag">Culture</span>
+              <h3 class="mosaic-title">History of Fashion: How Wear Became Big</h3>
+              <span class="mosaic-date">December 2023</span>
+            </div>
+          </a>
+
+          <a href="https://theugpost.com/when-strategies-fall-short/" class="img-warp-card" target="_blank">
+            <img src="img/business_strategy.png" alt="Business Strategy">
+            <div class="mosaic-caption">
+              <span class="mosaic-tag">Strategy</span>
+              <h3 class="mosaic-title">When Strategies Fall Short</h3>
+              <span class="mosaic-date">November 2023</span>
+            </div>
+          </a>
+
+          <a href="https://theugpost.com/sustainable-fashion-and-bark-cloth-in-uganda" class="img-warp-card"
+            target="_blank">
+            <img src="img/sustainable_fashion.jpg" alt="Sustainable Fashion">
+            <div class="mosaic-caption">
+              <span class="mosaic-tag">Sustainability</span>
+              <h3 class="mosaic-title">Sustainable Fashion & Bark Cloth</h3>
+              <span class="mosaic-date">October 2023</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLE 02 — BUSINESSWOMAN & ADMINISTRATOR
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="role-detail-section role-alt" id="role-admin">
+    <div class="container">
+
+      <div class="role-detail-inner reveal">
+
+        <div class="rd-header">
+          <div class="rd-header-left">
+            <span class="rd-number">02</span>
+            <div class="rd-icon-wrap">
+              <img src="icons/businesswoman.png" alt="Business icon"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'🏢',className:'rd-emoji'}))" />
+            </div>
+            <div>
+              <p class="rd-eyebrow">Role Two</p>
+              <h2 class="rd-title">Businesswoman &amp; Administrator</h2>
+            </div>
+          </div>
+          <a href="index.html#contact" class="btn btn-rose rd-cta">Work Together →</a>
+        </div>
+
+        <div class="rd-body-grid">
+
+          <div class="rd-narrative">
+            <p class="rd-lead">
+              Before coaching, before styling, before advocacy — there was administration.
+              It is the bedrock of everything else Leah does, and after more than a decade,
+              it remains one of her most refined and sought-after capabilities.
+            </p>
+            <p class="rd-body">
+              She has managed offices, coordinated multi-department operations, handled
+              executive scheduling, vendor relationships, budgeting, and the thousand
+              invisible tasks that keep an organisation breathing. Her approach is never
+              merely transactional — she brings strategic thinking to administrative work,
+              always asking how the day-to-day connects to the larger organisational mission.
+            </p>
+            <p class="rd-body">
+              As a businesswoman in her own right, Leah understands what it takes to build
+              something from the ground up — the discipline, the resource management, the
+              resilience. That entrepreneurial lens makes her an exceptional partner for
+              organisations that need not just an administrator, but a thinking, contributing
+              professional who invests in outcomes, not just outputs.
+            </p>
+
+            <div class="rd-offers">
+              <h3 class="rd-offers-title">What She Offers</h3>
+              <div class="rd-offers-grid">
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/silhouette.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Office &amp; Operations Management</strong>
+                    <p>End-to-end management of office systems, workflows, and administrative operations for smooth
+                      organisational functioning.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/google-calendar.png" alt="Icon"
+                      class="inline-icon"></span>
+                  <div>
+                    <strong>Executive Support &amp; Scheduling</strong>
+                    <p>High-level EA support — calendar management, correspondence, travel coordination, and board
+                      meeting preparation.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/strategy.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Business Strategy &amp; Planning</strong>
+                    <p>Strategic input on business development, process improvement, and operational planning for
+                      growing organisations.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/teamwork.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Vendor &amp; Stakeholder Relations</strong>
+                    <p>Negotiation, relationship management, and coordination with suppliers, partners, and
+                      institutional stakeholders.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="rd-detail-block">
+            <h4 class="rdb-title">Specialisations</h4>
+            <div class="rdb-tags">
+              <span>Office Management</span><span>Project Coordination</span>
+              <span>Executive Support</span><span>Records Management</span>
+              <span>Budget Tracking</span><span>Team Coordination</span><span>Stores & Procurement</span>
+            </div>
+          </div>
+
+          <div class="rd-detail-block">
+            <h4 class="rdb-title">Industries Served</h4>
+            <div class="rdb-tags">
+              <span>NGO / Nonprofit</span><span>Corporate</span>
+              <span>Healthcare</span><span>Education</span>
+              <span>Hospitality</span><span>Retail</span>
+            </div>
+          </div>
+
+          <div class="rd-detail-block">
+            <h4 class="rdb-title">Ideal Clients</h4>
+            <ul class="rdb-list">
+              <li>SMEs needing operational structure</li>
+              <li>Executives requiring high-level EA support</li>
+              <li>Startups building administrative foundations</li>
+              <li>Nonprofits scaling their operations</li>
+              <li>Organisations undergoing change or growth</li>
+            </ul>
+          </div>
+
+          <a href="index.html#contact" class="rd-enquire-link">
+            Enquire about administration services →
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLE 03 — LIFE & BUSINESS COACH
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="role-detail-section" id="role-coach">
+    <div class="container">
+
+      <div class="role-detail-inner reveal">
+
+        <div class="rd-header">
+          <div class="rd-header-left">
+            <span class="rd-number">03</span>
+            <div class="rd-icon-wrap">
+              <img src="icons/coach.png" alt="Coaching icon"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/financial-advisor.png\' alt=\'Icon\' class=\'inline-icon\'>',className:'rd-emoji'}))" />
+            </div>
+            <div>
+              <p class="rd-eyebrow">Role Three</p>
+              <h2 class="rd-title">Life &amp; Business Coach</h2>
+            </div>
+          </div>
+          <a href="index.html#contact" class="btn btn-rose rd-cta">Book a Session →</a>
+        </div>
+
+        <div class="rd-body-grid">
+
+          <div class="rd-narrative">
+            <p class="rd-lead">
+              This is where Leah's impact is most felt and most often spoken about.
+              Coaching is not what she does on the side — it is at the centre of how
+              she understands her purpose in the world.
+            </p>
+            <p class="rd-body">
+              Her coaching style defies easy categorisation. It is structured without
+              being rigid. It is empathetic without being soft. It is challenging without
+              being harsh. She has an extraordinary ability to see what a client is
+              actually saying beneath what they are telling her — and to ask the single
+              question that unlocks a breakthrough.
+            </p>
+            <p class="rd-body">
+              Whether working with an entrepreneur who has lost momentum, an executive
+              navigating a leadership transition, or a young professional stepping into
+              their first role of real responsibility — Leah meets them exactly where they
+              are and walks with them until they are ready to run on their own.
+            </p>
+            <p class="rd-body">
+              Over 200 individuals across Uganda and beyond have experienced her coaching.
+              Many return. Many send others. That is the truest measure of what she delivers.
+            </p>
+
+            <!-- Coaching process -->
+            <div class="rd-process">
+              <h3 class="rd-process-title">Her Coaching Process</h3>
+              <div class="rd-process-steps">
+                <div class="rd-step">
+                  <div class="rd-step-num">01</div>
+                  <div class="rd-step-content">
+                    <strong>Discovery Session</strong>
+                    <p>A deep, honest conversation to understand where you are, where you want to go, and what has been
+                      holding you back.</p>
+                  </div>
+                </div>
+                <div class="rd-step">
+                  <div class="rd-step-num">02</div>
+                  <div class="rd-step-content">
+                    <strong>Clarity &amp; Goal Mapping</strong>
+                    <p>Together, defining a clear, compelling vision and breaking it into structured, achievable
+                      milestones.</p>
+                  </div>
+                </div>
+                <div class="rd-step">
+                  <div class="rd-step-num">03</div>
+                  <div class="rd-step-content">
+                    <strong>Supported Action</strong>
+                    <p>Regular sessions, accountability check-ins, and real-time support as you move through your plan
+                      with momentum.</p>
+                  </div>
+                </div>
+                <div class="rd-step">
+                  <div class="rd-step-num">04</div>
+                  <div class="rd-step-content">
+                    <strong>Reflection &amp; Recalibration</strong>
+                    <p>Honest review of progress, celebrating wins, addressing obstacles, and adjusting the approach
+                      when needed.</p>
+                  </div>
+                </div>
+                <div class="rd-step">
+                  <div class="rd-step-num">05</div>
+                  <div class="rd-step-content">
+                    <strong>Empowered Independence</strong>
+                    <p>The goal is always for the client to no longer need the coach — to internalise the frameworks and
+                      lead themselves forward.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rd-offers">
+              <h3 class="rd-offers-title">Coaching Packages</h3>
+              <div class="rd-offers-grid">
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/student.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>One-to-One Life Coaching</strong>
+                    <p>Personalised sessions focused on mindset, confidence, purpose, and personal transformation.
+                      Monthly or bi-weekly cadence.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/meeting-icon.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Business Coaching</strong>
+                    <p>Strategic support for entrepreneurs, solopreneurs, and SME owners — from business planning to
+                      scaling and leadership development.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/leadership.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Executive &amp; Leadership Coaching</strong>
+                    <p>Senior-level coaching for professionals in or transitioning into leadership positions — presence,
+                      decision-making, and influence.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/meeting.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Group Workshops &amp; Programmes</strong>
+                    <p>Facilitated group coaching sessions, team workshops, and structured empowerment programmes for
+                      organisations and communities.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rd-sidebar">
+            <div class="rd-stat-card rd-stat-card-rose">
+              <div class="rds-num">200+</div>
+              <div class="rds-label">Lives Transformed Through Coaching</div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Coaching Specialisations</h4>
+              <div class="rdb-tags">
+                <span>Career Coaching</span><span>Mindset Coaching</span>
+                <span>Leadership Coaching</span><span>Business Strategy</span>
+                <span>Confidence Building</span><span>Goal Setting</span>
+                <span>Accountability</span><span>Women's Coaching</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Frameworks Used</h4>
+              <div class="rdb-tags">
+                <span>GROW Model</span><span>SMART Goals</span>
+                <span>Strengths Coaching</span><span>NLP</span>
+                <span>Design Thinking</span><span>CBT Principles</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Session Formats</h4>
+              <ul class="rdb-list">
+                <li>In-person (Kampala)</li>
+                <li>Virtual via Zoom / Teams</li>
+                <li>Hybrid programmes</li>
+                <li>Group workshops (on-site)</li>
+                <li>Corporate team sessions</li>
+              </ul>
+            </div>
+
+            <a href="index.html#contact" class="rd-enquire-link">
+              Book a discovery call →
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLE 04 — FASHION ENTHUSIAST & STYLIST
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="role-detail-section role-alt" id="role-fashion">
+    <div class="container">
+
+      <div class="role-detail-inner reveal">
+
+        <div class="rd-header">
+          <div class="rd-header-left">
+            <span class="rd-number">04</span>
+            <div class="rd-icon-wrap">
+              <img src="icons/fashion.png" alt="Fashion icon"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/fashion.png\' alt=\'Icon\' class=\'inline-icon\'>',className:'rd-emoji'}))" />
+            </div>
+            <div>
+              <p class="rd-eyebrow">Role Four</p>
+              <h2 class="rd-title">Fashion Enthusiast &amp; Stylist</h2>
+            </div>
+          </div>
+          <a href="index.html#contact" class="btn btn-rose rd-cta">Book a Styling →</a>
+        </div>
+
+        <div class="rd-body-grid">
+
+          <div class="rd-narrative">
+            <p class="rd-lead">
+              Fashion, for Leah, is never superficial. It is one of the most direct
+              languages human beings have — a way of communicating identity, intention,
+              and confidence before a single word is spoken.
+            </p>
+            <p class="rd-body">
+              As a stylist and fashion advocate, Leah works with clients — particularly
+              professional women — to discover and articulate their personal style in a
+              way that feels authentic rather than forced. She doesn't impose trends;
+              she uncovers the version of the client that is already there, waiting to
+              be expressed with confidence.
+            </p>
+            <p class="rd-body">
+              Her styling philosophy is deeply rooted in African fashion culture. She
+              celebrates the richness of Ugandan and East African textile traditions —
+              Ankara prints, Kitenge, and contemporary African design — alongside
+              professional and international styling conventions. The result is a style
+              language that is globally fluent and unapologetically African.
+            </p>
+            <p class="rd-body">
+              Beyond individual clients, Leah uses her platform as a fashion enthusiast
+              and influencer to champion body positivity, cultural pride in fashion, and
+              the idea that every woman — regardless of budget, size, or background —
+              deserves to feel extraordinary in how she presents herself.
+            </p>
+
+            <div class="rd-offers">
+              <h3 class="rd-offers-title">Styling Services</h3>
+              <div class="rd-offers-grid">
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/wardrobe.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Personal Styling &amp; Wardrobe Audit</strong>
+                    <p>A complete review of your existing wardrobe, identifying what works, what doesn't, and how to
+                      build a cohesive, functional style.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/briefcase.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Professional Image Consulting</strong>
+                    <p>Styling for career advancement — how to dress for the role you want, build executive presence,
+                      and command professional respect.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/collaboration.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>African &amp; Cultural Fashion</strong>
+                    <p>Celebrating Ugandan and East African fashion traditions — incorporating Ankara, Kitenge, and
+                      contemporary African design into modern professional and lifestyle wardrobes.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/charisma.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Event &amp; Occasion Dressing</strong>
+                    <p>Styling for specific occasions — corporate events, galas, weddings, media appearances, and any
+                      moment that calls for looking exceptional.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rd-sidebar">
+            <div class="rd-stat-card">
+              <div class="rds-num">100+</div>
+              <div class="rds-label">Clients Styled with Confidence</div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Style Specialisations</h4>
+              <div class="rdb-tags">
+                <span>Corporate Styling</span><span>African Fashion</span>
+                <span>Capsule Wardrobes</span><span>Colour Analysis</span>
+                <span>Body Typing</span><span>Bridal &amp; Events</span>
+                <span>Brand Image</span><span>Social Media Looks</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Fashion Philosophy</h4>
+              <ul class="rdb-list">
+                <li>Style is a tool, not a luxury</li>
+                <li>Celebrate African design &amp; culture</li>
+                <li>Confidence is the best outfit</li>
+                <li>Fashion should feel like you</li>
+                <li>Every budget can be beautiful</li>
+              </ul>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Ideal Clients</h4>
+              <ul class="rdb-list">
+                <li>Professional women building their brand</li>
+                <li>Executives wanting a polished presence</li>
+                <li>Women in career transitions</li>
+                <li>Brides &amp; bridal parties</li>
+                <li>Public figures &amp; speakers</li>
+              </ul>
+            </div>
+
+            <a href="https://www.instagram.com/nalevismalls" target="_blank" rel="noopener noreferrer"
+              class="rd-enquire-link">
+              View styling work on Instagram →
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLE 05 — TEAM LEADER & ADVOCATE
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="role-detail-section" id="role-leader">
+    <div class="container">
+
+      <div class="role-detail-inner reveal">
+
+        <div class="rd-header">
+          <div class="rd-header-left">
+            <span class="rd-number">05</span>
+            <div class="rd-icon-wrap">
+              <img src="icons/team.png" alt="Team icon"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/teamwork.png\' alt=\'Icon\' class=\'inline-icon\'>',className:'rd-emoji'}))" />
+            </div>
+            <div>
+              <p class="rd-eyebrow">Role Five</p>
+              <h2 class="rd-title">Team Leader &amp; Advocate</h2>
+            </div>
+          </div>
+          <a href="index.html#contact" class="btn btn-rose rd-cta">Engage Leah →</a>
+        </div>
+
+        <div class="rd-body-grid">
+
+          <div class="rd-narrative">
+            <p class="rd-lead">
+              Leadership, for Leah, is not a position — it is a practice. And advocacy
+              is not optional — it is a moral imperative. Both flow naturally from who
+              she is and what she believes.
+            </p>
+            <p class="rd-body">
+              She has led teams across diverse sectors — from office environments to
+              community organisations to nonprofit programmes. What distinguishes her
+              leadership is the combination of decisive authority and genuine care. She
+              holds high standards while creating the psychological safety that allows
+              people to meet them. Teams under her leadership don't just perform — they grow.
+            </p>
+            <p class="rd-body">
+              Her advocacy work is equally defining. She speaks and acts on behalf of
+              gender-inclusive opportunities in professional spaces, championing the
+              idea that talent, ambition, and capability have no gender. She engages with
+              humanitarian causes, social policy, and community development — not as a
+              bystander, but as an active, committed participant.
+            </p>
+            <p class="rd-body">
+              She has represented organisations at forums and summits, facilitated community
+              dialogues, and contributed to programmes that have created measurable change
+              in the lives of Ugandan women and families.
+            </p>
+
+            <!-- Leadership values visual -->
+            <div class="rd-leadership-values">
+              <h3 class="rd-offers-title">Her Leadership Principles</h3>
+              <div class="rd-lv-grid">
+                <div class="rd-lv-item">
+                  <span class="rd-lv-icon"><img src="icons/leadership.png" alt="Icon" class="inline-icon"></span>
+                  <strong>Lead by Example</strong>
+                  <p>She never asks of others what she won't do herself. Standards start with her.</p>
+                </div>
+                <div class="rd-lv-item">
+                  <span class="rd-lv-icon"><img src="icons/problem-solving.png" alt="Icon" class="inline-icon"></span>
+                  <strong>Develop the People</strong>
+                  <p>A team's greatest asset is its capability. She invests in growing it.</p>
+                </div>
+                <div class="rd-lv-item">
+                  <span class="rd-lv-icon"><img src="icons/speaker.png" alt="Icon" class="inline-icon"></span>
+                  <strong>Speak the Truth</strong>
+                  <p>Clear, kind, and direct. She doesn't let silence breed confusion or resentment.</p>
+                </div>
+                <div class="rd-lv-item">
+                  <span class="rd-lv-icon"><img src="icons/team-support.png" alt="Icon" class="inline-icon"></span>
+                  <strong>Leave No One Behind</strong>
+                  <p>Success shared with the team is success multiplied. She lifts as she climbs.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="rd-offers">
+              <h3 class="rd-offers-title">What She Offers</h3>
+              <div class="rd-offers-grid">
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/teamwork.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Team Building &amp; Development</strong>
+                    <p>Building high-performing, cohesive teams from recruitment through culture — with purpose, clear
+                      roles, and a shared sense of mission.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/seminar-speech-icon.png" alt="Icon"
+                      class="inline-icon"></span>
+                  <div>
+                    <strong>Advocacy &amp; Public Speaking</strong>
+                    <p>Representing causes, organisations, and communities at forums, events, summits, and public
+                      platforms with confidence and credibility.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/collaboration.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Community Facilitation</strong>
+                    <p>Facilitating community dialogues, gender-focused workshops, and stakeholder engagement sessions
+                      with empathy and structure.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/genders.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Gender &amp; Inclusion Consulting</strong>
+                    <p>Supporting organisations to embed gender-inclusive policies, practices, and cultures across their
+                      operations and programmes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rd-sidebar">
+            <div class="rd-stat-card">
+              <div class="rds-num">15+</div>
+              <div class="rds-label">Teams Led Across Multiple Sectors</div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Leadership Areas</h4>
+              <div class="rdb-tags">
+                <span>Team Management</span><span>Gender Advocacy</span>
+                <span>Community Leadership</span><span>Conflict Resolution</span>
+                <span>Mentorship</span><span>Strategic Facilitation</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Advocacy Focus Areas</h4>
+              <div class="rdb-tags">
+                <span>Gender Equality</span><span>Women in Leadership</span>
+                <span>Youth Empowerment</span><span>Workplace Inclusion</span>
+                <span>Humanitarian Response</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Ideal Partners</h4>
+              <ul class="rdb-list">
+                <li>Organisations building inclusive cultures</li>
+                <li>NGOs with community programmes</li>
+                <li>Companies needing leadership workshops</li>
+                <li>Forums seeking credible speakers</li>
+                <li>Government &amp; civil society partners</li>
+              </ul>
+            </div>
+
+            <a href="index.html#contact" class="rd-enquire-link">
+              Enquire about leadership engagements →
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLE 06 — NONPROFIT & GOVERNANCE
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="role-detail-section role-alt" id="role-nonprofit">
+    <div class="container">
+
+      <div class="role-detail-inner reveal">
+
+        <div class="rd-header">
+          <div class="rd-header-left">
+            <span class="rd-number">06</span>
+            <div class="rd-icon-wrap">
+              <img src="icons/nonprofit.png" alt="Nonprofit icon"
+                onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'<img src=\'icons/collaboration.png\' alt=\'Icon\' class=\'inline-icon\'>',className:'rd-emoji'}))" />
+            </div>
+            <div>
+              <p class="rd-eyebrow">Role Six</p>
+              <h2 class="rd-title">Nonprofit &amp; Governance</h2>
+            </div>
+          </div>
+          <a href="index.html#contact" class="btn btn-rose rd-cta">Partner with Leah →</a>
+        </div>
+
+        <div class="rd-body-grid">
+
+          <div class="rd-narrative">
+            <p class="rd-lead">
+              Impact without structure doesn't scale. Leah brings the discipline of
+              professional administration and strategic thinking to the world of nonprofit
+              management and governance — where the stakes are highest and the resources
+              are often thinnest.
+            </p>
+            <p class="rd-body">
+              She has worked alongside and within community organisations, NGOs, and
+              social enterprises — contributing to their strategic planning, operational
+              management, fundraising frameworks, and board governance. She understands
+              the unique pressures of the nonprofit sector: the need to demonstrate impact,
+              manage donor relationships, and maintain accountability while staying true to
+              the organisation's social mission.
+            </p>
+            <p class="rd-body">
+              Her approach to nonprofit work is never purely administrative. She brings
+              genuine social conscience and a commitment to lasting, measurable impact.
+              She asks the hard questions: Is this programme actually changing lives? Are
+              we measuring the right things? How do we sustain this beyond the next grant cycle?
+            </p>
+            <p class="rd-body">
+              That combination of professional rigor and human-centred values makes her
+              an asset to any organisation committed to doing good — and doing it well.
+            </p>
+
+            <div class="rd-offers">
+              <h3 class="rd-offers-title">What She Offers</h3>
+              <div class="rd-offers-grid">
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/discussion.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Board Governance &amp; Advisory</strong>
+                    <p>Supporting boards with governance structures, meeting facilitation, accountability frameworks,
+                      and strategic oversight.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/strategy.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Fundraising Strategy &amp; Donor Relations</strong>
+                    <p>Developing sustainable fundraising approaches, donor stewardship plans, and grant application
+                      support for community organisations.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/systematizer.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Programme Design &amp; Monitoring</strong>
+                    <p>Designing community programmes with clear theory of change, logical frameworks, indicators, and
+                      monitoring and evaluation systems.</p>
+                  </div>
+                </div>
+                <div class="rd-offer-item">
+                  <span class="rd-offer-icon"><img src="icons/organization.png" alt="Icon" class="inline-icon"></span>
+                  <div>
+                    <strong>Organisational Development</strong>
+                    <p>Supporting nonprofits to build operational capacity — policies, systems, staffing structures, and
+                      internal communications that enable growth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rd-sidebar">
+            <div class="rd-stat-card">
+              <div class="rds-num">5+</div>
+              <div class="rds-label">Nonprofits Supported Across Uganda</div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Governance Specialisations</h4>
+              <div class="rdb-tags">
+                <span>Board Governance</span><span>Fundraising</span>
+                <span>Programme Design</span><span>M&amp;E Systems</span>
+                <span>Grant Writing</span><span>Donor Relations</span>
+                <span>Impact Reporting</span><span>Strategic Planning</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Frameworks Applied</h4>
+              <div class="rdb-tags">
+                <span>Theory of Change</span><span>Logical Framework</span>
+                <span>Results Framework</span><span>Community CBA</span>
+                <span>Donor Reporting Standards</span>
+              </div>
+            </div>
+
+            <div class="rd-detail-block">
+              <h4 class="rdb-title">Ideal Partners</h4>
+              <ul class="rdb-list">
+                <li>Community-based organisations</li>
+                <li>International NGO local offices</li>
+                <li>Social enterprises seeking structure</li>
+                <li>Faith-based organisations</li>
+                <li>Government-supported programmes</li>
+              </ul>
+            </div>
+
+            <a href="index.html#contact" class="rd-enquire-link">
+              Explore a partnership →
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <!-- ════════════════════════════════════════════════════════
+       ROLES COMPARISON TABLE
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="comparison-section">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">At a Glance</p>
+        <h2 class="section-heading">All Roles <em>Compared</em></h2>
+        <p class="roles-section-intro">
+          Not sure which role best fits your need? Here's a quick overview to help
+          you identify where Leah can add the most value for you.
+        </p>
+      </div>
+
+      <div class="comparison-table-wrap reveal">
+        <table class="comparison-table" role="table">
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Best For</th>
+              <th scope="col">Format</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Engage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Role">
+                <span class="ct-role-name">
+                  <span class="ct-icon"><img src="icons/pen-tool.png" alt="Icon" class="inline-icon"></span> Writer
+                  &amp; Blogger
+                </span>
+              </td>
+              <td data-label="Best For">Brands, NGOs, media, tourism</td>
+              <td data-label="Format">Articles, blog posts, copy, campaigns</td>
+              <td data-label="Duration">Per piece or ongoing retainer</td>
+              <td data-label="Engage"><a href="index.html#contact" class="ct-link">Get a Quote →</a></td>
+            </tr>
+            <tr>
+              <td data-label="Role">
+                <span class="ct-role-name">
+                  <span class="ct-icon"><img src="icons/manager.png" alt="Icon" class="inline-icon"></span>
+                  Administrator
+                </span>
+              </td>
+              <td data-label="Best For">SMEs, startups, executives, nonprofits</td>
+              <td data-label="Format">Contract, part-time, or advisory</td>
+              <td data-label="Duration">Short-term project or long-term</td>
+              <td data-label="Engage"><a href="index.html#contact" class="ct-link">Discuss Needs →</a></td>
+            </tr>
+            <tr class="ct-row-featured">
+              <td data-label="Role">
+                <span class="ct-role-name">
+                  <span class="ct-icon"><img src="icons/financial-advisor.png" alt="Icon" class="inline-icon"></span>
+                  Life &amp; Business Coach
+                </span>
+              </td>
+              <td data-label="Best For">Individuals, executives, entrepreneurs</td>
+              <td data-label="Format">1:1 sessions, group workshops, programmes</td>
+              <td data-label="Duration">4 – 12 week programmes</td>
+              <td data-label="Engage"><a href="index.html#contact" class="ct-link">Book a Call →</a></td>
+            </tr>
+            <tr>
+              <td data-label="Role">
+                <span class="ct-role-name">
+                  <span class="ct-icon"><img src="icons/fashion.png" alt="Icon" class="inline-icon"></span> Fashion
+                  Stylist
+                </span>
+              </td>
+              <td data-label="Best For">Professional women, public figures, brides</td>
+              <td data-label="Format">Wardrobe session, event styling, consulting</td>
+              <td data-label="Duration">Single session or package</td>
+              <td data-label="Engage"><a href="index.html#contact" class="ct-link">Book Styling →</a></td>
+            </tr>
+            <tr>
+              <td data-label="Role">
+                <span class="ct-role-name">
+                  <span class="ct-icon"><img src="icons/teamwork.png" alt="Icon" class="inline-icon"></span> Team Leader
+                  &amp; Advocate
+                </span>
+              </td>
+              <td data-label="Best For">Organisations, forums, communities</td>
+              <td data-label="Format">Workshops, speaking, facilitation, consulting</td>
+              <td data-label="Duration">Event or ongoing engagement</td>
+              <td data-label="Engage"><a href="index.html#contact" class="ct-link">Invite Leah →</a></td>
+            </tr>
+            <tr>
+              <td data-label="Role">
+                <span class="ct-role-name">
+                  <span class="ct-icon"><img src="icons/collaboration.png" alt="Icon" class="inline-icon"></span>
+                  Nonprofit &amp; Governance
+                </span>
+              </td>
+              <td data-label="Best For">NGOs, CBOs, social enterprises</td>
+              <td data-label="Format">Advisory, consulting, board support</td>
+              <td data-label="Duration">Project-based or advisory retainer</td>
+              <td data-label="Engage"><a href="index.html#contact" class="ct-link">Partner Up →</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+       FAQ — common questions about engaging Leah
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="faq-section">
+    <div class="container">
+
+      <div class="reveal">
+        <p class="section-eyebrow">Common Questions</p>
+        <h2 class="section-heading">Before You <em>Reach Out</em></h2>
+      </div>
+
+      <div class="faq-grid reveal">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Can Leah work on more than one role for the same client?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Absolutely — and it's often where the greatest value is created. Many of her clients engage her
+              simultaneously as a coach and a writer, or as an administrator and a leadership trainer. Her roles
+              complement each other naturally, and clients who experience multiple disciplines often report the most
+              transformative outcomes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Does she work with individuals as well as organisations?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Yes, to both. Coaching and fashion styling are often deeply personal and one-to-one. Writing,
+              administration, advocacy, and governance work is more often organisational. She tailors every engagement
+              to the specific context and need — whether you are an individual seeking personal transformation or an
+              organisation looking for strategic support.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Is she available for virtual / remote engagements?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Yes. While she is based in Kampala and available for in-person engagements across Uganda, she also
+              conducts coaching sessions, writing consultations, and advisory work virtually via Zoom, Microsoft Teams,
+              and other platforms. She has worked with clients in multiple countries across East Africa and beyond.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I know which role is right for my need?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>The best starting point is a discovery conversation. Reach out via the contact form or call directly,
+              describe what you are facing or looking for, and Leah will identify which of her roles — or combination of
+              roles — is most likely to deliver the result you need. There is no pressure and no obligation in that
+              initial conversation.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What does a typical coaching engagement look like?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Coaching engagements typically begin with a free discovery call, followed by an initial session to
+              establish goals and context. Most programmes run for 4 to 12 weeks, with sessions held weekly or
+              bi-weekly. Each session is typically 60 to 90 minutes. Leah provides between-session support and
+              accountability check-ins, and every programme is tailored to the individual's specific needs and pace.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How quickly can she start on a project?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Subject to her current schedule and the nature of the engagement, Leah typically onboards new clients
+              within one to two weeks of initial contact. For urgent writing or short-term projects, quicker turnarounds
+              may be possible. Reach out early to secure her availability, particularly for longer engagements or events
+              with fixed dates.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════
+       CTA
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="roles-cta-section">
+    <div class="container roles-cta-inner reveal">
+      <div class="roles-cta-blob"></div>
+      <div class="roles-cta-content">
+        <p class="section-eyebrow" style="color:var(--rose-light); justify-content:center;">Ready to Begin?</p>
+        <h2 class="roles-cta-title">
+          Which Role Will You <em>Engage First?</em>
+        </h2>
+        <p class="roles-cta-body">
+          Every great collaboration starts with a single conversation. Reach out today —
+          describe what you need, and Leah will show you exactly how she can help.
+          Based in Kampala and open to opportunities across Uganda and beyond.
+        </p>
+        <div class="roles-cta-actions">
+          <a href="index.html#contact" class="btn btn-rose">Start the Conversation</a>
+          <a href="skills.html" class="btn btn-cta-outline">Explore Her Skills</a>
+        </div>
+        <div class="roles-cta-contact-strip">
+          <a href="mailto:leahtanh@gmail.com">
+            <span><img src="icons/email-square-icon.png" alt="Email" class="inline-icon"></span> leahtanh@gmail.com
+          </a>
+          <a href="tel:+256777520070">
+            <span><img src="icons/call-square-icon.png" alt="Phone" class="inline-icon"></span> +256 777 520 070
+          </a>
+          <a href="https://www.instagram.com/nalevismalls" target="_blank" rel="noopener noreferrer">
+            <span><img src="icons/instagram.png" alt="Instagram" class="inline-icon"></span> @nalevismalls
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <span class="footer-logo">Nale<span>VI</span></span>
+    <span class="footer-copy">© 2025 Nabukeera Leah Victoria · All rights reserved</span>
+    <div class="footer-socials">
+      <a href="https://ug.linkedin.com/in/leah-nabukeera" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.facebook.com/p/Nabukeera-Leah" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://www.instagram.com/nalevismalls" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
