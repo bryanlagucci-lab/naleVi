@@ -41,4 +41,4 @@ A premium, multi-page professional portfolio website designed for a dynamic Ugan
 This project was built focusing on **Performance, Elegance, and Simplicity**. By avoiding heavy external libraries, the site maintains rapid load times while providing a state-of-the-art interactive experience that effectively communicatesprofessional excellence.
 
 ---
-© 2025 Bryan Dev · Produced for Nabukeera Leah Victoria
+© 2026 Bryan Dev · Produced for Nabukeera Leah Victoria

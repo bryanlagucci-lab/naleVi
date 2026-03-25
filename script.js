@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════
    NALEVI — Nabukeera Leah Victoria · Portfolio Script
-   Author: NALEVI · 2025
+   Author: NALEVI · 2026
 ═══════════════════════════════════════════════════════════ */
 
 'use strict';
@@ -232,8 +232,30 @@
         const span = document.createElement('span');
         span.textContent = fallbackMap[key];
         span.style.fontSize = '1.3rem';
-        img.replaceWith(span);
       }
     });
+  });
+})();
+
+/* ─────────────────────────────────────────────────────────
+   8. ARTICLE SLIDER NAVIGATION (roles.html)
+───────────────────────────────────────────────────────── */
+(function initArticleSlider() {
+  const slider = document.getElementById('articlesSlider');
+  const prevBtn = document.querySelector('.slider-arrow-prev');
+  const nextBtn = document.querySelector('.slider-arrow-next');
+
+  if (!slider || !prevBtn || !nextBtn) return;
+
+  prevBtn.addEventListener('click', () => {
+    const card = slider.querySelector('.img-warp-card');
+    const cardWidth = card ? card.offsetWidth + 24 : 424; // Card width + gap
+    slider.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+  });
+
+  nextBtn.addEventListener('click', () => {
+    const card = slider.querySelector('.img-warp-card');
+    const cardWidth = card ? card.offsetWidth + 24 : 424;
+    slider.scrollBy({ left: cardWidth, behavior: 'smooth' });
   });
 })();
